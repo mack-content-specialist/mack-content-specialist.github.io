@@ -1,0 +1,29 @@
+[
+  {
+    "id":"vid_01",
+    "type":"video",
+    "title":"Explainer — Product X",
+    "role":"Director / Editor",
+    "description":"30s explainer showing features and motion branding.",
+    "thumb":"assets/thumbs/productx.jpg",
+    "video":"https://www.youtube.com/watch?v=dQw4w9WgXcQ"
+  },
+  {
+    "id":"vid_02",
+    "type":"video",
+    "title":"Short Documentary — City Lights",
+    "role":"Producer",
+    "description":"3-minute documentary; color grade and sound mix included.",
+    "thumb":"assets/thumbs/citylights.jpg",
+    "video":"assets/videos/citylights.mp4"
+  },
+  {
+    "id":"gfx_01",
+    "type":"graphic",
+    "title":"Poster Series — Autumn",
+    "role":"Designer",
+    "description":"Set of three posters exploring typographic composition.",
+    "thumb":"assets/thumbs/autumn.jpg",
+    "images":["assets/graphics/autumn-01.jpg","assets/graphics/autumn-02.jpg"]
+  }
+]

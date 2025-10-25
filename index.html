@@ -1,0 +1,35 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width,initial-scale=1" />
+  <title>Mack — Video & Graphic Portfolio</title>
+  <link rel="stylesheet" href="css/style.css" />
+</head>
+<body>
+  <header class="site-header">
+    <h1>Mack — Video & Graphic Portfolio</h1>
+    <p class="tagline">Select a project to view details, play video, or open image gallery.</p>
+  </header>
+
+  <main>
+    <section id="videos" class="gallery-section">
+      <h2>Video Projects</h2>
+      <div class="grid" id="video-grid"></div>
+    </section>
+
+    <section id="graphics" class="gallery-section">
+      <h2>Graphic Projects</h2>
+      <div class="grid" id="graphic-grid"></div>
+    </section>
+  </main>
+
+  <div id="lightbox" class="lightbox" aria-hidden="true">
+    <button id="lb-close" class="lb-close" aria-label="Close">✕</button>
+    <div id="lb-content" class="lb-content"></div>
+    <div id="lb-caption" class="lb-caption"></div>
+  </div>
+
+  <script src="js/gallery.js" type="module"></script>
+</body>
+</html>
